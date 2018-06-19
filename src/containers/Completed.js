@@ -1,9 +1,11 @@
 import React from 'react';
 
+import './Completed.css';
+
 class Completed extends React.Component{
     render(){
         return (
-        <div>
+        <div className="Completed">
             test Completed
         </div>
         );

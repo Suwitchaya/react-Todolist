@@ -1,9 +1,11 @@
 import React from 'react';
 
+import './Completed.css';
+
 class Incompleted extends React.Component{
     render(){
         return (
-        <div>
+        <div className="Completed">
             test Incompleted
         </div>
         );
